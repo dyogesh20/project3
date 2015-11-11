@@ -22,9 +22,9 @@ module alu #(
  //			parameter for selection of shift operations
  //*************************************************************		
 		
-		parameter 			TransferA		=	2'b00,		
+		//parameter 			TransferA		=	2'b00,		
 		parameter 			ShiftLeftA		=	2'b01,
-		parameter 			ShiftLeftA		=	2'b10,
+		parameter 			ShiftRightA		=	2'b10,
 		parameter 			Transfer0s		=	2'b11
 
 
@@ -39,7 +39,7 @@ module alu #(
 		input      		[4:0]		Sel,						//sel input for selection of operation
 		input      					clk,						//clock input for alu
 		input      					CarryIn,					//carry input
-		output     		[7:0]		Y							//output Y of alu
+		output   reg	[7:0]		Y							//output Y of alu
 );
 
 always @(posedge clk) begin
@@ -73,7 +73,7 @@ always @(posedge clk) begin
 				
 				 		TransferA	:		Y	<=	A;		
 						ShiftLeftA	:		Y	<=	A << 1;	
-						ShiftLeftA	:		Y	<=	A >> 1;	
+						ShiftRightA	:		Y	<=	A >> 1;	
 						Transfer0s	:		Y	<=	8'h00;	
 				
 				
