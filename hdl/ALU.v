@@ -44,37 +44,41 @@ module alu #(
 
 always @(posedge clk) begin
 
-		if (Sel[2] == 1'b1) begin
-		
-				case(Sel[1:0])
+		case(Sel[4:3])
 				
-						TransferA	:		Y	<=	A;	
-						AddC		:		Y	<=	A + B + CarryIn;	
-						Add			:		Y	<=	A + B;	
-						TransferB	:		Y	<=	B;	
+				TransferA	:	begin
+		
+						if (Sel[2] == 1'b1) begin
+		
+									case(Sel[1:0])
+				
+										TransferA	:		Y	<=	A;	
+										AddC		:		Y	<=	A + B + CarryIn;	
+										Add			:		Y	<=	A + B;	
+										TransferB	:		Y	<=	B;	
 						
-				endcase
+									endcase
 				
 			
-		end
-		else begin
+						end
+						else begin
 					
-				case(Sel[1:0])
+									case(Sel[1:0])
 				
-						And			:		Y	<=	A & B;	
-						Or			:		Y	<=	A | B;
-						Xor			:		Y	<=	A ^ B;
-						ComplementA	:		Y	<=	~ A;
+										And			:		Y	<=	A & B;	
+										Or			:		Y	<=	A | B;
+										Xor			:		Y	<=	A ^ B;
+										ComplementA	:		Y	<=	~ A;
 				
-				endcase
-		end
+									endcase
+						end
 		
-				case(Sel[4:3])
 				
-				 		TransferA	:		Y	<=	A;		
-						ShiftLeftA	:		Y	<=	A << 1;	
-						ShiftRightA	:		Y	<=	A >> 1;	
-						Transfer0s	:		Y	<=	8'h00;	
+					end
+				 			
+				ShiftLeftA	:		Y	<=	A << 1;	
+				ShiftRightA	:		Y	<=	A >> 1;	
+				Transfer0s	:		Y	<=	8'h00;	
 				
 				
 				endcase
