@@ -90,7 +90,7 @@ always @(Asynch3 or Bsynch3 or Selsynch3 or CarryInsynch3 ) begin
 				
 				TransferA	:	begin
 		
-						if (Selsynch3[2] == 1'b1) begin
+						if (Selsynch3[2] == 1'b0) begin
 		
 									case(Selsynch3[1:0])
 				
