@@ -125,6 +125,7 @@ initial
       end
     #15;
     $fdisplay (fhandle, "*** SUMMARY: Count of vectors failing = %d\n", fail_count);
+    $fdisplay (fhandle, "*** SUMMARY: Count of vectors pass = %d\n", pass_count);
     $stop;
    end
 
