@@ -1,0 +1,216 @@
+time =                   35 A = xxxxxxxx B = xxxxxxxx CarryIn = x Sel = xxxxx Y = xxxxxxxx Y_EXPECTED = xxxxxxxx >> PASS
+
+time =                   85 A = xxxxxxxx B = xxxxxxxx CarryIn = x Sel = xxxxx Y = xxxxxxxx Y_EXPECTED = xxxxxxxx >> PASS
+
+time =                  135 A = 00000000 B = 00000000 CarryIn = 0 Sel = 00000 Y = 00000000 Y_EXPECTED = 00000000 >> PASS
+
+time =                  185 A = 00000000 B = 00000000 CarryIn = 0 Sel = 00000 Y = 00000000 Y_EXPECTED = 00000000 >> PASS
+
+time =                  235 A = 00000000 B = 00000000 CarryIn = 0 Sel = 00000 Y = 00000000 Y_EXPECTED = 00000000 >> PASS
+
+time =                  285 A = 00000000 B = 00000000 CarryIn = 0 Sel = 00000 Y = 00000000 Y_EXPECTED = 00000000 >> PASS
+
+time =                  335 A = 10000000 B = 00000010 CarryIn = 0 Sel = 00000 Y = 10000000 Y_EXPECTED = 10000000 >> PASS
+
+time =                  385 A = 10111000 B = 10110001 CarryIn = 0 Sel = 00000 Y = 10111000 Y_EXPECTED = 10111000 >> PASS
+
+time =                  435 A = 11101010 B = 01011000 CarryIn = 0 Sel = 00000 Y = 11101010 Y_EXPECTED = 11101010 >> PASS
+
+time =                  485 A = 00011000 B = 11001100 CarryIn = 1 Sel = 00000 Y = 00011000 Y_EXPECTED = 00011000 >> PASS
+
+time =                  535 A = 00100000 B = 00110011 CarryIn = 1 Sel = 00000 Y = 00100000 Y_EXPECTED = 00100000 >> PASS
+
+time =                  585 A = 01100000 B = 01110110 CarryIn = 1 Sel = 00000 Y = 01100000 Y_EXPECTED = 01100000 >> PASS
+
+time =                  635 A = 01100010 B = 01011001 CarryIn = 1 Sel = 00100 Y = 01000000 Y_EXPECTED = 01000000 >> PASS
+
+time =                  685 A = 00010000 B = 10011011 CarryIn = 1 Sel = 00001 Y = 10101100 Y_EXPECTED = 10101100 >> PASS
+
+time =                  735 A = 11001001 B = 11010111 CarryIn = 0 Sel = 00000 Y = 11001001 Y_EXPECTED = 11001001 >> PASS
+
+time =                  785 A = 11111101 B = 01000111 CarryIn = 0 Sel = 00000 Y = 11111101 Y_EXPECTED = 11111101 >> PASS
+
+time =                  835 A = 10010111 B = 10000001 CarryIn = 0 Sel = 00000 Y = 10010111 Y_EXPECTED = 10010111 >> PASS
+
+time =                  885 A = 01100110 B = 01001101 CarryIn = 1 Sel = 00000 Y = 01100110 Y_EXPECTED = 01100110 >> PASS
+
+time =                  935 A = 10111001 B = 01100010 CarryIn = 0 Sel = 00000 Y = 10111001 Y_EXPECTED = 10111001 >> PASS
+
+time =                  985 A = 10000110 B = 10010001 CarryIn = 0 Sel = 00000 Y = 10000110 Y_EXPECTED = 10000110 >> PASS
+
+time =                 1035 A = 10111010 B = 11011000 CarryIn = 0 Sel = 00000 Y = 10111010 Y_EXPECTED = 10111010 >> PASS
+
+time =                 1085 A = 11100010 B = 11001110 CarryIn = 0 Sel = 00101 Y = 11101110 Y_EXPECTED = 11101110 >> PASS
+
+time =                 1135 A = 00100110 B = 00000111 CarryIn = 1 Sel = 00000 Y = 00100110 Y_EXPECTED = 00100110 >> PASS
+
+time =                 1185 A = 01010111 B = 10101000 CarryIn = 1 Sel = 00000 Y = 01010111 Y_EXPECTED = 01010111 >> PASS
+
+time =                 1235 A = 01110100 B = 11101101 CarryIn = 1 Sel = 00000 Y = 01110100 Y_EXPECTED = 01110100 >> PASS
+
+time =                 1285 A = 10101011 B = 01111011 CarryIn = 0 Sel = 00000 Y = 10101011 Y_EXPECTED = 10101011 >> PASS
+
+time =                 1335 A = 11111110 B = 00111001 CarryIn = 0 Sel = 00000 Y = 11111110 Y_EXPECTED = 11111110 >> PASS
+
+time =                 1385 A = 01101011 B = 00010010 CarryIn = 1 Sel = 00000 Y = 01101011 Y_EXPECTED = 01101011 >> PASS
+
+time =                 1435 A = 00111101 B = 10110110 CarryIn = 1 Sel = 00000 Y = 00111101 Y_EXPECTED = 00111101 >> PASS
+
+time =                 1485 A = 11001001 B = 01010101 CarryIn = 0 Sel = 00000 Y = 11001001 Y_EXPECTED = 11001001 >> PASS
+
+time =                 1535 A = 01100001 B = 11100101 CarryIn = 1 Sel = 00011 Y = 11100101 Y_EXPECTED = 11100101 >> PASS
+
+time =                 1585 A = 01001000 B = 10010011 CarryIn = 1 Sel = 00000 Y = 01001000 Y_EXPECTED = 01001000 >> PASS
+
+time =                 1635 A = 10011000 B = 00100100 CarryIn = 0 Sel = 10000 Y = 01001100 Y_EXPECTED = 01001100 >> PASS
+
+time =                 1685 A = 11010000 B = 11101001 CarryIn = 0 Sel = 00001 Y = 10111001 Y_EXPECTED = 10111001 >> PASS
+
+time =                 1735 A = 00010110 B = 01101011 CarryIn = 1 Sel = 00000 Y = 00010110 Y_EXPECTED = 00010110 >> PASS
+
+time =                 1785 A = 10110001 B = 11111100 CarryIn = 0 Sel = 00011 Y = 11111100 Y_EXPECTED = 11111100 >> PASS
+
+time =                 1835 A = 11001101 B = 10000111 CarryIn = 0 Sel = 00000 Y = 11001101 Y_EXPECTED = 11001101 >> PASS
+
+time =                 1885 A = 10010110 B = 11111101 CarryIn = 0 Sel = 00000 Y = 10010110 Y_EXPECTED = 10010110 >> PASS
+
+time =                 1935 A = 11110000 B = 01011111 CarryIn = 0 Sel = 00000 Y = 11110000 Y_EXPECTED = 11110000 >> PASS
+
+time =                 1985 A = 11011010 B = 10110010 CarryIn = 0 Sel = 00000 Y = 11011010 Y_EXPECTED = 11011010 >> PASS
+
+time =                 2035 A = 10000100 B = 10100101 CarryIn = 0 Sel = 00000 Y = 10000100 Y_EXPECTED = 10000100 >> PASS
+
+time =                 2085 A = 10011101 B = 11111001 CarryIn = 0 Sel = 00000 Y = 10011101 Y_EXPECTED = 10011101 >> PASS
+
+time =                 2135 A = 11101111 B = 00000011 CarryIn = 0 Sel = 00000 Y = 11101111 Y_EXPECTED = 11101111 >> PASS
+
+time =                 2185 A = 10110101 B = 11111110 CarryIn = 0 Sel = 00000 Y = 10110101 Y_EXPECTED = 10110101 >> PASS
+
+time =                 2235 A = 01010000 B = 10011011 CarryIn = 1 Sel = 00001 Y = 11101100 Y_EXPECTED = 11101100 >> PASS
+
+time =                 2285 A = 10101000 B = 00011010 CarryIn = 0 Sel = 10000 Y = 01010100 Y_EXPECTED = 01010100 >> PASS
+
+time =                 2335 A = 10000101 B = 10000001 CarryIn = 0 Sel = 00000 Y = 10000101 Y_EXPECTED = 10000101 >> PASS
+
+time =                 2385 A = 10101000 B = 00011001 CarryIn = 0 Sel = 10000 Y = 01010100 Y_EXPECTED = 01010100 >> PASS
+
+time =                 2435 A = 00010011 B = 01110001 CarryIn = 1 Sel = 00110 Y = 01100010 Y_EXPECTED = 01100010 >> PASS
+
+time =                 2485 A = 10011010 B = 01010111 CarryIn = 0 Sel = 00000 Y = 10011010 Y_EXPECTED = 10011010 >> PASS
+
+time =                 2535 A = 01001101 B = 11101010 CarryIn = 1 Sel = 00000 Y = 01001101 Y_EXPECTED = 01001101 >> PASS
+
+time =                 2585 A = 10100101 B = 11110100 CarryIn = 0 Sel = 00000 Y = 10100101 Y_EXPECTED = 10100101 >> PASS
+
+time =                 2635 A = 11010000 B = 01111110 CarryIn = 0 Sel = 00000 Y = 11010000 Y_EXPECTED = 11010000 >> PASS
+
+time =                 2685 A = 10011100 B = 00010000 CarryIn = 0 Sel = 11000 Y = 00000000 Y_EXPECTED = 00000000 >> PASS
+
+time =                 2735 A = 00100001 B = 11110001 CarryIn = 1 Sel = 00011 Y = 11110001 Y_EXPECTED = 11110001 >> PASS
+
+time =                 2785 A = 10001111 B = 11001001 CarryIn = 0 Sel = 00000 Y = 10001111 Y_EXPECTED = 10001111 >> PASS
+
+time =                 2835 A = 01001010 B = 01111111 CarryIn = 1 Sel = 00000 Y = 01001010 Y_EXPECTED = 01001010 >> PASS
+
+time =                 2885 A = 00011111 B = 01111010 CarryIn = 1 Sel = 00000 Y = 00011111 Y_EXPECTED = 00011111 >> PASS
+
+time =                 2935 A = 01010101 B = 01100101 CarryIn = 1 Sel = 00000 Y = 01010101 Y_EXPECTED = 01010101 >> PASS
+
+time =                 2985 A = 01010010 B = 01100101 CarryIn = 1 Sel = 00100 Y = 01000000 Y_EXPECTED = 01000000 >> PASS
+
+time =                 3035 A = 10001001 B = 01111000 CarryIn = 0 Sel = 00000 Y = 10001001 Y_EXPECTED = 10001001 >> PASS
+
+time =                 3085 A = 00111110 B = 11001100 CarryIn = 1 Sel = 00000 Y = 00111110 Y_EXPECTED = 00111110 >> PASS
+
+time =                 3135 A = 10001110 B = 01110010 CarryIn = 0 Sel = 00000 Y = 10001110 Y_EXPECTED = 10001110 >> PASS
+
+time =                 3185 A = 00011011 B = 00110001 CarryIn = 1 Sel = 00000 Y = 00011011 Y_EXPECTED = 00011011 >> PASS
+
+time =                 3235 A = 00100100 B = 01000111 CarryIn = 1 Sel = 01000 Y = 01001000 Y_EXPECTED = 01001000 >> PASS
+
+time =                 3285 A = 10011010 B = 00101000 CarryIn = 0 Sel = 00000 Y = 10011010 Y_EXPECTED = 10011010 >> PASS
+
+time =                 3335 A = 01110111 B = 10010110 CarryIn = 1 Sel = 00000 Y = 01110111 Y_EXPECTED = 01110111 >> PASS
+
+time =                 3385 A = 10101011 B = 00000100 CarryIn = 0 Sel = 00000 Y = 10101011 Y_EXPECTED = 10101011 >> PASS
+
+time =                 3435 A = 11101010 B = 00001100 CarryIn = 0 Sel = 00000 Y = 11101010 Y_EXPECTED = 11101010 >> PASS
+
+time =                 3485 A = 10100010 B = 01001010 CarryIn = 0 Sel = 00100 Y = 00000010 Y_EXPECTED = 00000010 >> PASS
+
+time =                 3535 A = 01000111 B = 01100011 CarryIn = 1 Sel = 00000 Y = 01000111 Y_EXPECTED = 01000111 >> PASS
+
+time =                 3585 A = 10010011 B = 10101010 CarryIn = 0 Sel = 00111 Y = 01101100 Y_EXPECTED = 01101100 >> PASS
+
+time =                 3635 A = 01000111 B = 00111010 CarryIn = 1 Sel = 00000 Y = 01000111 Y_EXPECTED = 01000111 >> PASS
+
+time =                 3685 A = 11111011 B = 11110001 CarryIn = 0 Sel = 00000 Y = 11111011 Y_EXPECTED = 11111011 >> PASS
+
+time =                 3735 A = 11011001 B = 11111000 CarryIn = 0 Sel = 00000 Y = 11011001 Y_EXPECTED = 11011001 >> PASS
+
+time =                 3785 A = 11101100 B = 00110001 CarryIn = 0 Sel = 11000 Y = 00000000 Y_EXPECTED = 00000000 >> PASS
+
+time =                 3835 A = 10000010 B = 01111011 CarryIn = 0 Sel = 00100 Y = 00000010 Y_EXPECTED = 00000010 >> PASS
+
+time =                 3885 A = 01101000 B = 00001111 CarryIn = 1 Sel = 10000 Y = 00110100 Y_EXPECTED = 00110100 >> PASS
+
+time =                 3935 A = 11011000 B = 00111111 CarryIn = 0 Sel = 10000 Y = 01101100 Y_EXPECTED = 01101100 >> PASS
+
+time =                 3985 A = 11000111 B = 11111000 CarryIn = 0 Sel = 00000 Y = 11000111 Y_EXPECTED = 11000111 >> PASS
+
+time =                 4035 A = 10101101 B = 01000111 CarryIn = 0 Sel = 00000 Y = 10101101 Y_EXPECTED = 10101101 >> PASS
+
+time =                 4085 A = 01011100 B = 10110001 CarryIn = 1 Sel = 00000 Y = 01011100 Y_EXPECTED = 01011100 >> PASS
+
+time =                 4135 A = 00101000 B = 11100110 CarryIn = 1 Sel = 00000 Y = 00101000 Y_EXPECTED = 00101000 >> PASS
+
+time =                 4185 A = 01111100 B = 01111000 CarryIn = 1 Sel = 11000 Y = 00000000 Y_EXPECTED = 00000000 >> PASS
+
+time =                 4235 A = 11100100 B = 01000001 CarryIn = 0 Sel = 01000 Y = 11001000 Y_EXPECTED = 11001000 >> PASS
+
+time =                 4285 A = 00111010 B = 10101110 CarryIn = 1 Sel = 00000 Y = 00111010 Y_EXPECTED = 00111010 >> PASS
+
+time =                 4335 A = 10100111 B = 00011101 CarryIn = 0 Sel = 00000 Y = 10100111 Y_EXPECTED = 10100111 >> PASS
+
+time =                 4385 A = 10000001 B = 11001110 CarryIn = 0 Sel = 00011 Y = 11001110 Y_EXPECTED = 11001110 >> PASS
+
+time =                 4435 A = 00111011 B = 01010101 CarryIn = 1 Sel = 00000 Y = 00111011 Y_EXPECTED = 00111011 >> PASS
+
+time =                 4485 A = 11001100 B = 00010001 CarryIn = 0 Sel = 11000 Y = 00000000 Y_EXPECTED = 00000000 >> PASS
+
+time =                 4535 A = 11011011 B = 00010011 CarryIn = 0 Sel = 00000 Y = 11011011 Y_EXPECTED = 11011011 >> PASS
+
+time =                 4585 A = 01111010 B = 00001110 CarryIn = 1 Sel = 00000 Y = 01111010 Y_EXPECTED = 01111010 >> PASS
+
+time =                 4635 A = 01110001 B = 10010100 CarryIn = 1 Sel = 00011 Y = 10010100 Y_EXPECTED = 10010100 >> PASS
+
+time =                 4685 A = 01110111 B = 01000110 CarryIn = 1 Sel = 00000 Y = 01110111 Y_EXPECTED = 01110111 >> PASS
+
+time =                 4735 A = 00110000 B = 00101111 CarryIn = 1 Sel = 00000 Y = 00110000 Y_EXPECTED = 00110000 >> PASS
+
+time =                 4785 A = 10101011 B = 01001001 CarryIn = 0 Sel = 00000 Y = 10101011 Y_EXPECTED = 10101011 >> PASS
+
+time =                 4835 A = 01001000 B = 11001101 CarryIn = 1 Sel = 00000 Y = 01001000 Y_EXPECTED = 01001000 >> PASS
+
+time =                 4885 A = 01010011 B = 00000101 CarryIn = 1 Sel = 00110 Y = 01010110 Y_EXPECTED = 01010110 >> PASS
+
+time =                 4935 A = 11100101 B = 00010000 CarryIn = 0 Sel = 00000 Y = 11100101 Y_EXPECTED = 11100101 >> PASS
+
+time =                 4985 A = 11111000 B = 01011001 CarryIn = 0 Sel = 10000 Y = 01111100 Y_EXPECTED = 01111100 >> PASS
+
+time =                 5035 A = 00011100 B = 11101010 CarryIn = 1 Sel = 00000 Y = 00011100 Y_EXPECTED = 00011100 >> PASS
+
+time =                 5085 A = 00000111 B = 00000000 CarryIn = 1 Sel = 00000 Y = 00000111 Y_EXPECTED = 00000111 >> PASS
+
+time =                 5135 A = 10110001 B = 01000101 CarryIn = 0 Sel = 00010 Y = 11110110 Y_EXPECTED = 11110110 >> PASS
+
+time =                 5185 A = 00100100 B = 01110010 CarryIn = 1 Sel = 01000 Y = 01001000 Y_EXPECTED = 01001000 >> PASS
+
+time =                 5235 A = 00010111 B = 00001111 CarryIn = 1 Sel = 00000 Y = 00010111 Y_EXPECTED = 00010111 >> PASS
+
+time =                 5285 A = 00100101 B = 01001101 CarryIn = 1 Sel = 00000 Y = 00100101 Y_EXPECTED = 00100101 >> PASS
+
+*** SUMMARY: Count of vectors failing =           0
+
+*** SUMMARY: Count of vectors pass =         106
+
